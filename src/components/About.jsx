@@ -4,12 +4,11 @@ const About = () => {
   return (
     <section id="about" className="py-16 px-4 md:px-8">
       <div className="container mx-auto space-y-16 p-6">
-        {/* Judul utama */}
         <div className="text-center mb-10">
           <h2 className="text-4xl font-bold font-mono">Tentang Kami</h2>
         </div>
 
-        {/* Bagian pertama: Siapa Kita */}
+        {/* Bagian pertama */}
         <div className="flex flex-col md:flex-row items-center md:space-x-8">
           <img
             src={about2}
@@ -35,7 +34,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Bagian kedua: Visi */}
+        {/* Bagian kedua */}
         <div className="flex flex-col md:flex-row-reverse items-center md:space-x-8">
           <img
             src={about2}
@@ -59,7 +58,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Bagian ketiga: Misi */}
+        {/* Bagian ketiga */}
         <div className="flex flex-col md:flex-row items-center md:space-x-8">
           <img
             src={about2}
