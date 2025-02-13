@@ -1,7 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import productImage from "../assets/produk3.png";
 import bg from "../assets/pola1.png";
-import { MapPin } from "lucide-react";
 
 function Hero() {
   return (
@@ -13,7 +12,7 @@ function Hero() {
           style={{ backgroundImage: `url(${bg})` }}
         ></div>
 
-        {/* Konten teks */}
+        {/* teks */}
         <div className="relative z-10">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-sans text-white">
             <Typewriter
@@ -27,16 +26,14 @@ function Hero() {
             />
           </h1>
           <p className="mt-4 text-lg sm:text-xl lg:text-2xl font-mono font-semibold text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet.
           </p>
-          <p className="mt-4 text-lg sm:text-xl lg:text-2xl font-mono text-white flex items-center justify-center gap-2">
-            <MapPin size={24} className="text-white" /> Jl. Lorem Ipsum no.1,
-            Kota Example, Indonesia
+          <p className="mt-4 text-lg sm:text-xl lg:text-2xl font-mono text-white">
+            Jl. Lorem Ipsum no.1, Kota Example, Indonesia
           </p>
         </div>
       </div>
 
-      {/* Gambar Produk */}
       <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
         <img
           src={productImage}
