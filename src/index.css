@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@theme {
+  --color-mint-500: oklch(0.72 0.11 178);
+  --color-driftwood: oklch(0.79 0.06 74.59);
+}
+@keyframes custom-shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-2px, 2px); }
+  50% { transform: translate(2px, -2px); }
+  75% { transform: translate(-2px, -2px); }
+  100% { transform: translate(2px, 2px); }
+}
+
